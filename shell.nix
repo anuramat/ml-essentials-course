@@ -1,5 +1,5 @@
 let
-  pkgs = import <nixpkgs> {};
+  pkgs = import <nixos-unstable> {};
 in
   pkgs.mkShell {
     packages = [
@@ -13,7 +13,7 @@ in
           torch
           torchvision
           pytorch-lightning
-          jupyter-collaboration
+          # jupyter-collaboration
           jupytext
         ]))
     ];
