@@ -14,6 +14,7 @@ in
           torchvision
           pytorch-lightning
           jupyter-collaboration
+          jupytext
         ]))
     ];
   }
