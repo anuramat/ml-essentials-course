@@ -1,2 +1,3 @@
-# ml-essentials-course
-whatever
+# Machine Learning Essentials
+
+Exercises
